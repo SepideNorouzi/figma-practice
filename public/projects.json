@@ -1,0 +1,37 @@
+[
+  {
+    "id": "cool-app",
+    "title": "Cool App",
+    "description": "A fun project built with React and TypeScript.",
+    "url": "https://cool-app.vercel.app",
+    "cover": "../src/assets/covers/1.png"
+  },
+  {
+    "id": "cool-app",
+    "title": "Cool App",
+    "description": "A fun project built with React and TypeScript.",
+    "url": "https://cool-app.vercel.app",
+    "cover": "../src/assets/covers/2.png"
+  },
+  {
+    "id": "cool-app",
+    "title": "Cool App",
+    "description": "A fun project built with React and TypeScript.",
+    "url": "https://cool-app.vercel.app",
+    "cover": "../src/assets/covers/3.png"
+  },
+  {
+    "id": "cool-app",
+    "title": "Cool App",
+    "description": "A fun project built with React and TypeScript.",
+    "url": "https://cool-app.vercel.app",
+    "cover": "../src/assets/covers/4.png"
+  },
+  {
+    "id": "cool-app",
+    "title": "Cool App",
+    "description": "A fun project built with React and TypeScript.",
+    "url": "https://cool-app.vercel.app",
+    "cover": "../src/assets/covers/5.png"
+  }
+]
