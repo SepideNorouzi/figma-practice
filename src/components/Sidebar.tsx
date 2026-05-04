@@ -8,7 +8,7 @@ type Project = {
   cover: string;
 };
 
-function Sidebar() {
+function Sidebar(language: string) {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
@@ -21,8 +21,9 @@ function Sidebar() {
   return (
     <aside
       className="bg-green-200 shadow-lg  ml-0 
-   flex flex-col gap-4 overflow-x-hidden overflow-y-auto p-4"
+   flex flex-col gap-4 overflow-hidden p-4 items-center relative"
     >
+      <h1 className="text-xl font-semibold">My latest projects</h1>
       {projects.map((project) => (
         <div
           key={project.id}

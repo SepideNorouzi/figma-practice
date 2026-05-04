@@ -4,9 +4,9 @@ import { skills } from "../constants/skills";
 function Skills() {
   return (
     <section className="flex flex-col items-center mb-4">
-      <h3>Skills</h3>
+      <h1 font-semibold>Skills</h1>
 
-      <div className="flex flex-row justify-between gap-4 overflow-x-auto overflow-y-hidden whitespace-nowrap py-12 w-full">
+      <div className="flex flex-row justify-between gap-4 overflow-x-auto overflow-y-hidden whitespace-nowrap py-5 px-12 w-full">
         {skills.map((skill) => (
           <div
             key={skill.name}

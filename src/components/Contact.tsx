@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div
       className="bg-white h-[35%] w-[105%] shadow-lg
-          flex items-center overflow-x-hidden overflow-y-auto rounded-tl-3xl"
+          flex items-center overflow-x-hidden overflow-y-auto rounded-tl-3xl absolute bottom-0 left-0 right-0"
     >
       <div>
         <p>Contact Me</p>

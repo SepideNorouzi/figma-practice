@@ -1,7 +1,4 @@
-
-
 function About() {
-
   const buttonHandler = () => {
     // cv pdf here
   };
@@ -15,16 +12,20 @@ function About() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
             pariatur atque iusto mollitia ratione minus, quasi aperiam, qui
             soluta, voluptate ea? Saepe numquam quas necessitatibus vitae ad ab
-            illo sit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            pariatur atque iusto mollitia ratione minus, quasi aperiam, qui
-            soluta, voluptate ea? Saepe numquam quas necessitatibus vitae ad ab
-            illo sit?
+            illo sit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Animi pariatur atque iusto mollitia ratione minus, quasi aperiam,
+            qui soluta, voluptate ea? Saepe numquam quas necessitatibus vitae ad
+            ab illo sit?
           </p>
-          <button onclick={buttonHandler}>View CV</button>
+          <button
+            className="bg-blue-200 rounded-2xl p-2 pr-4 pl-4"
+            onClick={() => buttonHandler()}
+          >
+            View CV
+          </button>
         </div>
         <div className="bg-green-500 w-[40%]">
-          <img/>
+          <img />
           <p>image</p>
           {/* img link here */}
         </div>
