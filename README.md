@@ -1,6 +1,6 @@
-# Personal Portfolio — Figma to Code
+# Figma to Code
 
-A responsive personal portfolio web app built by translating a custom Figma design into a fully functional React + TypeScript application. The project was created as a design-to-code practice exercise, focusing on layout precision, component structure, and real UI implementation from a Figma file.
+A responsive personal web app built by translating a custom Figma design into a fully functional React + TypeScript application. The project was created as a design-to-code practice exercise, focusing on layout precision, component structure, and real UI implementation from a Figma file.
 
 ## Features
 
